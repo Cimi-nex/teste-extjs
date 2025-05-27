@@ -5,12 +5,27 @@
 // "This is an example!" ==> "sihT si na !elpmaxe"
 // "double  spaces"      ==> "elbuod  secaps"
 
+//  melhor resposta do codewars
+// function reverseWords(str) {
+// Go for it
+// split words into seperate arrays
+//  return str.split("").reverse().join("").split(" ").reverse().join(" ");
+// }
 
+//nossa resposta
 function reverseWords(str) {
-    console.log(str)
+  const result = str
+    .split(/(\s+)/)
+    .map((part) => {
+      if (part.trim() !== '') {
+        return part.split('').reverse().join('')
+      }
+      return part
+    })
+    .join('')
 
-  // Go for it
+  return result
 }
 
-reverseWords("This is an example!")
-reverseWords("double  spaces")
+console.log(reverseWords('This is an example!'))
+console.log(reverseWords('double  spaces'))

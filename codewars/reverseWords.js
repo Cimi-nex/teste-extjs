@@ -7,5 +7,10 @@
 
 
 function reverseWords(str) {
+    console.log(str)
+
   // Go for it
 }
+
+reverseWords("This is an example!")
+reverseWords("double  spaces")

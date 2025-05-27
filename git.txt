@@ -1,11 +1,22 @@
 para ver o status do meu cod
-git status
+    git status
+
+para ver oq eu mudei
+    git diff
 
 para add tudo que eu mudei 
-git add .
+    git add .
 
 para escrever uma mensagem que eu mudei
-git commit -m "mensagem aqui"
+    git commit -m "mensagem aqui"
 
 para subir o cod que mudei para o github
-git push
+    git push
+ 
+para trocar branch 
+    git switch (nome da branch)
+
+para criar uma branch
+    git switch -c (nome da branch)
+
+

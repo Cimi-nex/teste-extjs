@@ -22,4 +22,8 @@ para criar uma branch
 para sincronizar meu cod local com o cod do github
     git pull
 
+para voltar para o commit antigo 
+    git restore . 
+    
+
 

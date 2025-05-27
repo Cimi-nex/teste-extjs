@@ -19,4 +19,7 @@ para trocar branch
 para criar uma branch
     git switch -c (nome da branch)
 
+para sincronizar meu cod local com o cod do github
+    git pull
+
 
